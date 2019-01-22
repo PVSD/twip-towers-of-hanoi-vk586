@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         System.out.println("Instructions:");
-        TowersOfHanoi h = new TowersOfHanoi(n, 'A', 'B', 'C');
+        TowersOfHanoi.solve(n, 'A', 'B', 'C');
     }
 }
 
